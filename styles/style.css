@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.figure {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 4% auto 0;
+}
+
+.figure__cirle-red {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: red;
+}
+
+
+.figure__cirle-red-left-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+
+.figure__cirle-red-left-top:hover {
+    background: peru;
+    z-index: 1;
+}
+
+.figure__cirle-red-right-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 1s;
+}
+.figure__cirle-red-right-top:hover {
+    background: black;
+    z-index: 1;
+}
+
+.figure__cirle-red-right-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+
+.figure__cirle-red-right-bottom:hover {
+    background: palegoldenrod;
+    z-index: 1;
+}
+
+.figure__cirle-red-left-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1s;
+}
+
+.figure__cirle-red-left-bottom:hover {
+    background: grey;
+    z-index: 1;
+}
+
+.figure__square-blue {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 70%;
+    height: 70%;
+    background: blue;
+    transition: 1s;
+}
+
+.figure__square-blue:hover {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 70%;
+    height: 70%;
+    background: green;
+    z-index: 1;
+}
+
+.figure__square-rounded-yellow {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 40%;
+    height: 40%;
+    background: yellow;
+    border-radius: 10%;
+}
+
